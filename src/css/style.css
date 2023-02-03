@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.principal{
+    background: url(../img/bg-repeat.jpg) center center fixed;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.principal .texto-introducao{
+    width: 300px;
+    color: #fff;
+}
+
+.principal .texto-introducao .titulo{
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 23px;
+    margin-bottom: 11px;
+}
+
+.principal .texto-introducao .informacao{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 17px;
+}
+
+.principal .caixa-form{
+    background-color: #fff;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.principal .caixa-form .campos-preencher{
+    position: relative;
+}
+
+.principal .caixa-form .campos-preencher .formulario{
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 9px;
+}
+
+.principal .caixa-form .campos-preencher #iMensagem{
+    height: 100px;
+}
+
+.principal .caixa-form .campo-obrigatorio{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 18px;
+    margin-bottom: 11px;
+}
+
+.principal .caixa-form .btn-enviar{
+    background-color: #3CCC87;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.principal .caixa-form .campos-preencher .campo-invalido{
+    display: none;
+}
+
+.principal .caixa-form .campos-preencher.nao-preenchido .campo-invalido{
+    position: absolute;
+    color: #ff0000;
+    margin-bottom: 6px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    top: 38px;
+    display: block;
+}
+
+.principal .caixa-form .campos-preencher .campo-invalido.campo-mensagem{
+    top: 100px;
+}
+
+.principal .caixa-form .campos-preencher.nao-preenchido .formulario{
+    border: 1px solid #ff0000;
+}
+
+.principal .caixa-form .campos-preencher.preenchido .formulario{
+    border: 1px solid #008000;
+}
