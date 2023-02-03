@@ -92,9 +92,9 @@
 }
 
 .principal .caixa-form .campos-preencher.nao-preenchido .formulario{
-    border: 1px solid #ff0000;
+    border: 2px solid #ff0000;
 }
 
 .principal .caixa-form .campos-preencher.preenchido .formulario{
-    border: 1px solid #008000;
+    border: 2px solid greenyellow;
 }
