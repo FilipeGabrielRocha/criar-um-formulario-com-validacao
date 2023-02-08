@@ -52,6 +52,7 @@
 
 .principal .caixa-form .campos-preencher #iMensagem{
     height: 100px;
+    resize: none;
 }
 
 .principal .caixa-form .campo-obrigatorio{
